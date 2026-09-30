@@ -22,7 +22,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.1.0"/>
+    <PackageReference Include="Avalonia" Version="12.1.3" />
   </ItemGroup>
   
   <ItemGroup>
@@ -34,8 +34,8 @@
     <Compile Include="**\*.macos.*.cs" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Licence.md" Pack="true" PackagePath=""/>
-    <None Include="Readme.md" Pack="true" PackagePath=""/>
+    <None Include="Licence.md" Pack="true" PackagePath="" />
+    <None Include="Readme.md" Pack="true" PackagePath="" />
   </ItemGroup>
   
 </Project>
